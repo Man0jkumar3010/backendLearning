@@ -1,0 +1,21 @@
+
+
+
+# DELETE http://localhost:3002/api/user?id=4
+
+# DELETE http://localhost:3002/api/users
+
+# GET http://localhost:3002/api/user?id=4
+
+# GET http://localhost:3002/api/users
+
+POST http://localhost:3002/api/user  
+content-type: application/json 
+
+ {
+  "id":4,
+  "name": "Leo",
+  "age": 26,
+  "email": "Leo@gmail.com"
+}
+
